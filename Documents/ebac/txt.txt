@@ -1,0 +1,74 @@
+Marcus, segue a minha resolução:
+
+Alguns passos ali deram errado porque eu digitei errado, mas tirando isso, essa resolução ta certinha.
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git init
+
+Initialized empty Git repository in D:/JULIA/05-EBAC/Modulo 2 - Versionamento de código usando o Git/exercicio_git/.git/
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> echo "Julia Dias Gomes" > nome.txt
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git status
+
+On branch master
+
+No commits yet
+
+Untracked files:
+
+ (use "git add <file>..." to include in what will be committed)
+
+    nome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git add .
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git commit -m "criação de um arquivo contendo meu nome"
+
+[master (root-commit) 0afeda4] criação de um arquivo contendo meu nome
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+ create mode 100644 nome.txt
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git branch
+
+* master
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git branch exercicio_git
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git branch
+
+ exercicio_git
+
+* master
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git checkout exercicio_git
+
+Switched to branch 'exercicio_git'
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git remote add origin https://github.com/JuliaDiasGomes/curso_ebac_frontend.git
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git remote set-url origin https://github.com/JuliaDiasGomes/curso_ebac_frontend.git
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git> git push origin exercicio_git
+
+Enumerating objects: 3, done.
+
+Counting objects: 100% (3/3), done.
+
+Writing objects: 100% (3/3), 274 bytes | 274.00 KiB/s, done.
+
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+
+To https://github.com/JuliaDiasGomes/curso_ebac_frontend.git
+
+ * [new branch]   exercicio_git -> exercicio_git
+
+PS D:\JULIA\05-EBAC\Modulo 2 - Versionamento de código usando o Git\exercicio_git>
+
+
+
+ PS D: reinaldo- ebac modolo 2 https://ght       https://github.com/reynaldoti/curso_ebac_frontend.g
+    

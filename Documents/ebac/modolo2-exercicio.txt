@@ -1,0 +1,67 @@
+PS C:\git28> echo " curso_ebac_frontend " > README.md
+PS C:\git28> git init
+Reinitialized existing Git repository in C:/git28/.git/
+PS C:\git28> git add README.md
+PS C:\git28> git commit -m "first commit"
+[branch-exercicio_git 0daa432] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\git28> git branch
+* branch-exercicio_git
+  main
+PS C:\git28> git remote add origin https://github.com/reynaldoti/curso_ebac_frontend1.git
+error: remote origin already exists.
+PS C:\git28> git branch -M main
+PS C:\git28> git branch
+* main
+PS C:\git28> git checkout -b branch1-exercicio_git
+Switched to a new branch 'branch1-exercicio_git'
+PS C:\git28> git remote add origin https://github.com/reynaldoti/curso_ebac_frontend1.git
+error: remote origin already exists.
+PS C:\git28> git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/reynaldoti/curso_ebac_frontend.git
+   45061af..0daa432  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\git28> git clone https://github.com/reynaldoti/curso_ebac_frontend1.git
+Cloning into 'curso_ebac_frontend1'...
+warning: You appear to have cloned an empty repository.
+PS C:\git28> git branch
+* branch1-exercicio_git
+  main
+PS C:\git28> echo " reinaldo jesus santos" nome.txt
+ reinaldo jesus santos
+nome.txt
+PS C:\git28> echo " reinaldo jesus santos" > nome1.txt
+PS C:\git28> git add nome1.txt
+PS C:\git28> git commit -m "initial commit"
+[branch1-exercicio_git d85ba25] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nome1.txt
+PS C:\git28> git push
+fatal: The current branch branch1-exercicio_git has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch1-exercicio_git
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\git28> git push origin branch1-exercicio_git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 26.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'branch1-exercicio_git' on GitHub by visiting:
+remote:      https://github.com/reynaldoti/curso_ebac_frontend/pull/new/branch1-exercicio_git
+remote:
+To https://github.com/reynaldoti/curso_ebac_frontend.git
+ * [new branch]      branch1-exercicio_git -> branch1-exercicio_git
+PS C:\git28>
